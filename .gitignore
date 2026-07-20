@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.ipynb_checkpoints/
+fine_tuned_model/
+*.pkl

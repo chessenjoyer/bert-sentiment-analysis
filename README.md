@@ -49,13 +49,13 @@ uvicorn api:app --reload
 
 | Модель | F1 macro | Accuracy |
 |---|---:|---:|
-| Fine-tuned DistilBERT | 0.8193 | 0.8200 |
+| Fine-tuned DistilBERT | 0.8100 | 0.8100 |
 | Baseline | 0.7947 | 0.7950 |
 
-Улучшение F1 относительно baseline: **3.10%**.
+Улучшение F1 относительно baseline: **1.92%**.
 
-На тестовой выборке из 200 отзывов fine-tuned модель допустила 36 ошибок:
-14 false positives и 22 false negatives. Подробности приведены в
+На тестовой выборке из 200 отзывов fine-tuned модель допустила 38 ошибок:
+22 false positives и 16 false negatives. Подробности приведены в
 `error_analysis.txt`.
 
 ## Использование модели в коде

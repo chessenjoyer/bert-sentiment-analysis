@@ -4,5 +4,7 @@ __pycache__/
 venv/
 .idea/
 .ipynb_checkpoints/
+HW_transformers_executed.ipynb
+attention_layer*.png
 fine_tuned_model/
 *.pkl
